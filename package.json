@@ -1,17 +1,26 @@
 {
   "name": "lasso-ignore-require-transform",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lasso.js transform that ignores specific required modules which may get included during the build phase but are not supported by browser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Rajat Talwar",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^10.12.18"
   },
   "repository": {
-    "url": ""
-  }
+    "type": "git",
+    "url": "https://github.com/rtalwar26/lasso-ignore-require-transform"
+  },
+  "keywords": [
+    "lasso",
+    "require",
+    "ignore",
+    "ES5",
+    "browser",
+    "browserify",
+  ]
 }
