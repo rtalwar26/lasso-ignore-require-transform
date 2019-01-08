@@ -21,6 +21,6 @@
     "ignore",
     "ES5",
     "browser",
-    "browserify",
+    "browserify"
   ]
 }
