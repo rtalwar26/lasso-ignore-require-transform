@@ -2,7 +2,7 @@
 
 ## This transform should not be used for server side rendering of modules.
 
-Lasso.js transform that ignores specific required modules which my get included during the build phase but are not supported by browser.
+Lasso.js transform that ignores specific required modules which may get included during the build phase but are not supported by browser.
 
 This module should be used to avoid using nodejs-only  modules to be bundled in the browser. 
 
@@ -30,8 +30,8 @@ require('lasso').configure({
           modules: ['crypto', 'vm']
         }
       }]
-      }
-      );
+    }
+);
 
 ```
 
