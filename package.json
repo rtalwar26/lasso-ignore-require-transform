@@ -1,6 +1,6 @@
 {
   "name": "lasso-ignore-require-transform",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lasso.js transform that ignores specific required modules which may get included during the build phase but are not supported by browser",
   "main": "index.js",
   "scripts": {
